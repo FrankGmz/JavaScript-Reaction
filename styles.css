@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/cubes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+}
+
+#screen {
+
+    width: 80%;
+    height:300px;
+}
+
+#shape {
+
+    position:relative;
+    width:200px;
+    height:200px;
+    background-color:red;
+}
+
+.box {
+    text-align: center;
+}
